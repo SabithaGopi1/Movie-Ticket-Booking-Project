@@ -29,3 +29,5 @@ Docker
 * POST /movie/booking/{movieId}/{tickets}/{payment}: Create a new booking.
 * DELETE /movie/{movieId}: Delete a movie.
 * PUT /movie/{movieId}: Update movie information.
+*  GET Addons (Pizza and Coke) URL: GET http://localhost:8080/api/addons
+* Book Ticket with Pizza and Coke URL: POST http://localhost:8080/api/tickets
