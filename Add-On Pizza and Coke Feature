@@ -1,0 +1,35 @@
+1. GET Addons (Pizza and Coke)
+URL: GET http://localhost:8080/api/addons
+2. Book Ticket with Pizza and Coke
+URL: POST http://localhost:8080/api/tickets
+Body:
+
+{
+  "movieName": "Inception",
+  "customerName": "John Doe",
+  "numberOfTickets": 2,
+  "addons": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ]
+}
+
+
+This will book tickets for the movie "Inception" and add Pizza and Coke with the booking.
+
+
+Build & Run the Application
+Build the project: mvn clean install
+Build the Docker image: docker-compose build
+Start the containers: docker-compose up
+
+
+This will start the Spring Boot application and PostgreSQL container. You can now interact with your Movie Ticket Booking system using Postman.
+
+
+This should provide a fully functional Movie Ticket Booking system with added pizza and coke functionality. Let me know if you need further details!
+
